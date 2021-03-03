@@ -17,7 +17,7 @@ def space_ocupied?(item)
 end
 
 def current_player(board)
-  if turn_count(board) % 2 == 1
+  if (turn_count(board) % 2 == 0)
     return "X"
   else
     return "O"
