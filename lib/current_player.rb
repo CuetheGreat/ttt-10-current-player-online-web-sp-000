@@ -16,8 +16,8 @@ def space_ocupied?(item)
   end
 end
 
-def current_player(turn_number)
-  if turn_number % 2 == 0
+def current_player(board)
+  if turn_count(board) % 2 == 0
     return "O"
   else
     return "X"
