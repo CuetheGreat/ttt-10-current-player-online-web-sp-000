@@ -15,3 +15,5 @@ def space_ocupied?(item)
     return false
   end
 end
+
+def current_player(turnNumber)
