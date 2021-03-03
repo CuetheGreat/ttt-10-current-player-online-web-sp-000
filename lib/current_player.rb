@@ -10,8 +10,8 @@ end
 
 def space_ocupied?(item)
   if (item =="X" || item == "O")
-    return TRUE
+    return true
   else 
-    return FALSE
+    return false
   end
 end
