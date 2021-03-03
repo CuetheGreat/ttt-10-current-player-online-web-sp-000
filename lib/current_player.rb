@@ -16,4 +16,10 @@ def space_ocupied?(item)
   end
 end
 
-def current_player(turnNumber)
+def current_player(turn_number)
+  if turn_number % 2 == 0
+    return "O"
+  else
+    return "X"
+  end
+end
